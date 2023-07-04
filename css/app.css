@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    overflow: auto;
+    background-color: #14213d;
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        height: auto;
+    }
+
+    .content {
+        min-height: 100vh !important;
+        overflow: auto;
+    }
+}
+
+body * {
+    color: #fff;
+}
+
+p {
+    font-size: 24px;
+    margin: 0;
+}
+
+span {
+    font-size: 32px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 24px;
+}
